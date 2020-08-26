@@ -3,5 +3,5 @@
 require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
 
-
+get 'posts/:id', to: 'posts#show'
 
